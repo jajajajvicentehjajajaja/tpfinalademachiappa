@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.textos{
+    grid-area: texto;
+    padding: 1% 0 1% 25%;
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.clasePadre{
+    display: grid;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 2250px;
+
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+
+    grid-template-areas: 
+    'imagen imagen imagen2 imagen2'
+    'texto texto'
+    'imagen imagen imagen2 imagen2'
+    'texto texto'
+    'imagen imagen imagen2 imagen2'
+    'texto texto'
+    'imagen imagen imagen2 imagen2'
+    'texto texto';
+
+}
+
+#titulo{
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: "Sulphur Point", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.clasePadre__claseHijo__claseNieto{
+  
+    height: 100%;
+    width: 100%; 
+}
+ 
+.imagenes:hover{
+    animation:shadow-pop-top-right 0.5s linear both
+} 
+
+
+.imagenes{
+    grid-area: imagen;
+    padding: 5% 0 1.5% 25%;
+    height: 40%;
+    width: 50%;
+}
