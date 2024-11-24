@@ -56,6 +56,6 @@
 .imagenes{
     grid-area: imagen;
     padding: 5% 0 1.5% 25%;
-    height: 50%;
-    width: 60%;
+    height: 40%;
+    width: 50%;
 }
