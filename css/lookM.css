@@ -1,3 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.mi-carrusel{
+  height: 650px;;
+}
+
+.mi-carrusel img{
+  object-fit: cover;
+}
+
 .ClasePadres {
     display: flex; }
   
