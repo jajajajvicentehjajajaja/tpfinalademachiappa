@@ -20,7 +20,7 @@
     display: grid;
     background-color: #f2f2f2;
     width: 100%;
-    height: 2700px;
+    height: 2250px;
 
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 2fr  2fr;

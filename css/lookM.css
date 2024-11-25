@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0;
 }
+#menu{
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: 1000; 
+ }    
 
 .mi-carrusel{
   height: 650px;;
@@ -29,10 +36,3 @@
     display: flex;
     justify-content: center; }
  
- #menu{
-   position: fixed; 
-   top: 0; 
-   left: 0; 
-   width: 100%; 
-   z-index: 1000; 
-  }    
