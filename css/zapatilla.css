@@ -4,7 +4,24 @@
 }
 
 
+body{
+    animation:slideInLeft  0.9s linear both
+   
+}
 
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 .textos{
 
     grid-area: texto;
