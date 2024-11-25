@@ -9,10 +9,12 @@
     <title>Bershka - Registrarse</title>
     <link rel="stylesheet" href="../css/registrate.css">
     <link rel="icon" href="../imagenes/icono/Sin título.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nova+Round&family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav id="menu" id="menu" class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+        <nav id="menu" class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -39,52 +41,53 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../tpfinalademachiappa/paginas/zapatilla.html">Zapatillas</a>
+                    <a class="nav-link active" aria-current="page" href="../paginas/zapatilla.html">Zapatillas</a>
                 </li>
     
                 </ul>
                 
                 <div class="container-fluid" id="titulo1">
-                  <a class="navbar-brand"  href="../tpfinalademachiappa/index.html">BERSHKA</a>
+                  <a class="navbar-brand"  href="../index.html">BERSHKA</a>
                 </div>
                 
                 <div class="col-md-4 text-end">
-                    <button type="button" class="btn btn-outline-dark me-2">Registrarse</button>
-                    <button type="button" class="btn btn-dark">Inicio-Sesion</button>
+                    <a href="../paginas/registrate.html"><button type="button" class="btn btn-outline-dark me-2">Registrarse</button></a>
+                    <a href="../paginas/incioSesion.html"><button type="button" class="btn btn-dark">Inicio-Sesion</button></a>
                 </div>
     
             </div>
         </nav>
     </header>
-    <div class="Login-box">
-        <h2>Registrarse</h2>
-        <form action="">
-            <div class="user-box">
-                <input type="text" name="" required="">
-                <label for="">Correo</label>
-            </div>
-            <div class="user-box">
-                <input type="contraseña" name="" required="">
-                <label for="">Contraseña</label>
-            </div>
-            <div class="user-box">
-                <input type="contraseña" name="" required="">
-                <label for="">Confirme su Contraseña</label>
-            </div>
-            <div class="user-box">
-                <input type="contraseña" name="" required="">
-                <label for="">Telefono</label>
-            </div>
-            <a href="#">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Crear
-            </a>
-        </form>
-    </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <main class="clasePadre">
+        <div class="Login-box">
+            <h2>Registrarse</h2>
+            <form action="">
+                <div class="user-box">
+                    <label for="correo">Correo</label>
+                    <input type="text" name="" required="">
+                </div>
+                <div class="user-box">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="text" name="" required="">
+                </div>
+                <div class="user-box">
+                    <label for="confirmecontraseña">Confirme su Contraseña</label>
+                    <input type="text" name="" required="">
+                </div>
+                <div class="user-box">
+                    <label for="telefono">Telefono</label>
+                    <input type="text" name="" required="">
+                </div>
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Crear
+                </a>
+            </form>
+        </div>
+   </main>
     <div>
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <p class="col-md-4 mb-0 text-body-secondary">© 2024 BERSHKA</p>

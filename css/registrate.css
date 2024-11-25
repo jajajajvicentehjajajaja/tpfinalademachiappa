@@ -5,10 +5,36 @@ html{
 body{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
     background-color: white;
 }
 
+#menu{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+#titulo{
+    text-align: center;
+    background-color: #404040;
+ 
+    font-weight: 700;
+    font-style: normal;
+    color: #f2f2f2;
+}
+
+#titulo1 {
+    padding-left: 20%;
+    text-align: center; 
+}
+
+.clasePadre{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 700px;
+}
 .Login-box{
     position: absolute;
     top: 50%;
@@ -27,6 +53,8 @@ body{
     padding: 0;
     color: white;
     text-align: center;   
+    font-family: "Sulphur Point", sans-serif;;
+
 }
 
 .Login-box .user-box{
@@ -34,6 +62,8 @@ body{
 }
 
 .Login-box .user-box input{
+    font-family: "Sulphur Point", sans-serif;;
+
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -45,6 +75,7 @@ body{
     background: transparent;
 }
 
+
 .Login-box .user-box label{
     position: absolute;
     top: 0;
@@ -54,6 +85,8 @@ body{
     color: white;
     pointer-events: none;
     transition: .5s;
+    font-family: "Sulphur Point", sans-serif;;
+
 }
 
 .Login-box .user-box input:focus label{
@@ -172,4 +205,8 @@ body{
     100%{
         bottom: 100%;
     }
+}
+
+label:hover{
+    opacity: 0 ;
 }
