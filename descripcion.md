@@ -1,0 +1,1 @@
+Nuestra pagina esta inspirada en la marca de ropa llamada Bershka, en esta pagina se puede ver un lugar de hombres, mujeres y uno dedicado a las zapatillas, cada uno de estos tendran otras paginas en donde se puede ver distintas prendas, etc. Esta pagina .Integrantes: Lucila Robledo, Benicio Adema, Vicente Chiappa. Se puede prever la pagina en la parte de Settings, Pages
