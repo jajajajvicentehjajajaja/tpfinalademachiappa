@@ -8,6 +8,9 @@ body{
     background-color: white;
 }
 
+
+
+
 #menu{
     position: fixed; 
     top: 0; 
@@ -100,7 +103,7 @@ body{
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: aqua;
+    color: #f2f2f2;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -111,13 +114,13 @@ body{
 }
 
 .Login-box a:hover{
-    background-color: aqua;
+    background-color: #0d0d0d;
     color: white;
     border-radius: 5px;
-    box-shadow: 0 0 5px aqua,
-        0 0 25px aqua,
-        0 0 50px aqua,
-        0 0 100px aqua;
+    box-shadow: 0 0 5px #0d0d0d,
+        0 0 25px #0d0d0d,
+        0 0 50px #0d0d0d,
+        0 0 100px #0d0d0d;
 }
 
 .Login-box a span{

@@ -3,7 +3,10 @@
     margin: 0;
 }
 
-
+body{
+    animation:slideInLeft  0.9s linear both
+   
+}
 
 .textos{
     grid-area: texto;
@@ -40,6 +43,26 @@
     width: 100%; 
     z-index: 1000; 
 }
+
+
+
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+
+
 
 #titulo{
     text-align: center;
