@@ -34,7 +34,7 @@ body{
 .clasePadre{
     background-color: #f2f2f2;
     width: 100%;
-    height: 6500px;
+    height: 1000px;
 }
 
 .Login-box{
@@ -84,7 +84,6 @@ body{
 }
 
 .Login-box .user-box label{
-    position: absolute;
     top: 0;
     left: 0;
     padding: 10px 0;

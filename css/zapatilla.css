@@ -86,8 +86,18 @@ body{
     padding: 5% 0 1.5% 25%;
     height: 50%;
     width: 60%;
+    transition: all 0.1s;
+
 }
+.imagenes:hover{
+    transform: scale(1.09);
+  
+} 
 
 .linea{
     background-color: #404040;
+}
+
+@media screen and (min-width: 320px) and (max-width:767px) {
+    
 }

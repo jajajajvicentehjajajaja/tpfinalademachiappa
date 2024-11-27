@@ -45,7 +45,7 @@ body{
 }
 
 
-
+ 
 @keyframes slideInLeft {
     0% {
       transform: translateX(-100%);
@@ -85,7 +85,8 @@ body{
 }
  
 .imagenes:hover{
-    animation:shadow-pop-top-right 0.5s linear both
+    transform: scale(1.09);
+  
 } 
 
 
@@ -94,6 +95,8 @@ body{
     padding: 5% 0 1.5% 25%;
     height: 50%;
     width: 60%;
+
+    transition: all 0.1s;
 }
 
 .linea{
